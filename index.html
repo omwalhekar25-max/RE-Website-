@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Frame Animation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Preloader Screen -->
+  <div id="loader" class="loader-container">
+    <div class="loader-content">
+      <div class="loader-bar-bg">
+        <div id="loader-bar" class="loader-bar"></div>
+      </div>
+      <div id="loader-text" class="loader-text">0%</div>
+    </div>
+  </div>
+
+  <!-- Main Sticky Canvas Container -->
+  <div class="scroll-container">
+    <div class="sticky-wrapper">
+      <canvas id="animation-canvas"></canvas>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

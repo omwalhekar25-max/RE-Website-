@@ -1,0 +1,6 @@
+{
+  "name": "Real Estate",
+  "description": "Luxurious real estate portal featuring exclusive property listings, location filters, virtual tour bookings, and interactive search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
